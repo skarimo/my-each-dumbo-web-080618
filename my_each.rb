@@ -4,6 +4,7 @@ def my_each(array)
   idx = 0 
     while idx < array.length 
       newarr << array[idx]
+      array[idx]
       idx += 1 
     end 
 new_arr
