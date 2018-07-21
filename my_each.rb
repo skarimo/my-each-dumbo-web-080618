@@ -7,6 +7,6 @@ def my_each(array)
         puts array[idx]
       end
     end 
-new_arr
+array
 
 end
