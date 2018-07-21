@@ -5,5 +5,5 @@ def my_each(array)
     idx += 1
   end  
  
- 
+ array
 end
