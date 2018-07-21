@@ -6,6 +6,7 @@ def my_each(array)
       array[idx] do 
         puts array[idx]
       end
+      idx += 1
     end 
 new_arr
 
