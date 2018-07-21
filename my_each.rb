@@ -3,10 +3,9 @@ def my_each(array)
   
   idx = 0 
     while idx < array.length 
-      array[idx] do 
+      array do |idx|
         puts array[idx]
       end
-      idx += 1
     end 
 new_arr
 
